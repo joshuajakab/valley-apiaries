@@ -1,0 +1,43 @@
+.side-drawer {
+    height: 100%;
+    background: rgba(60, 38, 13, 1);
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    z-index: 200;
+
+    ul {
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+        padding: 0;
+    }
+    li {
+        margin: 0.5rem 0;
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        color: #F4BB3A;
+        text-decoration: none;
+        font-size: 7rem;;
+        font-family: cheap-pine, sans-serif;
+        border: none;
+    }
+    }
+
+
+    @media screen and (max-width: 800px) {
+        .side-drawer {
+            width: 100%;
+
+            .ul {
+                justify-content: center;
+            }
+        }
+    }

@@ -1,0 +1,35 @@
+.btn {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    background-color: #311f0b;
+    color: rgba(255,255,204,1);
+    font-family: cheap-pine, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .btn {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem 1rem;
+        background-color: #311f0b;
+        color: rgba(255,255,204,1);
+        font-family: cheap-pine, sans-serif;
+        font-size: 1.4rem;
+        font-weight: 300;
+        line-height: 1;
+        text-transform: uppercase;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+    }
+}
