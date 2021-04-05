@@ -1,7 +1,7 @@
 
 
 export const firebaseConfig = {
-    apiKey: "AIzaSyBQ2eMMcRF47Z3GBYkeSP4bZk_TmRU2xIA",
+    apiKey: process.env.API_KEY,
     authDomain: "valley-apiaries.firebaseapp.com",
     projectId: "valley-apiaries",
     storageBucket: "valley-apiaries.appspot.com",
